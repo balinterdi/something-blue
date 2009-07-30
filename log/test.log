@@ -1,0 +1,332 @@
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:27:26) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-27 09:27:26) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:33:31) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-27 09:33:31) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:34:56) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-27 09:34:57) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:35:26) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-27 09:35:26) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:35:46) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 20ms (View: 17 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:44:14) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 24ms (View: 20 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:50:17) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 24ms (View: 19 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:51:23) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 26ms (View: 22 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 09:52:11) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 49ms (View: 45 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-27 10:13:38) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-27 10:13:38) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:20:25) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 166ms (View: 43 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:22:17) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 358ms (View: 23 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:22:17) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-29 08:22:17) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:24:18) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 39ms (View: 22 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:24:18) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 179ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:24:18) [GET]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-29 08:24:18) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:27:26) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 41ms (View: 23 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:27:26) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 129ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:27:26) [GET]
+Rendering template within layouts/application
+Rendering lendings/index
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-29 08:27:26) [GET]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:31:09) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 42ms (View: 21 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:31:09) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 131ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:31:09) [GET]
+Rendering template within layouts/application
+Rendering lendings/index
+Completed in 79ms (View: 8 | 200 OK [http://www.example.com/lendings]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:33:40) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 47ms (View: 22 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:33:40) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 128ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:33:40) [GET]
+Rendering template within layouts/application
+Rendering lendings/index
+Completed in 79ms (View: 8 | 200 OK [http://www.example.com/lendings]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:34:32) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Completed in 48ms (View: 21 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:34:32) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 138ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:34:32) [GET]
+Rendering template within layouts/application
+Rendering lendings/index
+Rendered lendings/_lending (0.9ms)
+Completed in 31ms (View: 17 | 200 OK [http://www.example.com/lendings]
+REQUESTING PAGE: GET /lendings/new with {} and HTTP headers {}
+
+
+Processing LendingsController#new (for 127.0.0.1 at 2009-07-29 08:36:26) [GET]
+Rendering template within layouts/application
+Rendering lendings/new
+Rendered layouts/_flashes (131.9ms)
+Completed in 181ms (View: 154 | 200 OK [http://www.example.com/lendings/new]
+REQUESTING PAGE: POST /lendings with {"commit"=>"Save", "lending"=>{"category"=>"cd", "time"=>"14", "title"=>"My favorite worst nightmare", "to"=>"leonhard"}} and HTTP headers {"HTTP_REFERER"=>"/lendings/new"}
+
+
+Processing LendingsController#create (for 127.0.0.1 at 2009-07-29 08:36:26) [POST]
+  Parameters: {"commit"=>"Save", "lending"=>{"category"=>"cd", "title"=>"My favorite worst nightmare", "time"=>"14", "to"=>"leonhard"}}
+Redirected to http://www.example.com/lendings
+Completed in 9ms | 302 Found [http://www.example.com/lendings]
+REQUESTING PAGE: GET http://www.example.com/lendings with {} and HTTP headers {"HTTP_REFERER"=>"/lendings"}
+
+
+Processing LendingsController#index (for 127.0.0.1 at 2009-07-29 08:36:26) [GET]
+Rendering template within layouts/application
+Rendering lendings/index
+Rendered lendings/_lending (0.8ms)
+Rendered lendings/_lending (0.1ms)
+Rendered layouts/_flashes (0.4ms)
+Completed in 39ms (View: 24 | 200 OK [http://www.example.com/lendings]
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 11:13:35) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-29 11:13:35) [GET]
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 11:16:21) [GET]
+Rendering template within layouts/application
+Rendering users/new
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-29 11:16:21) [GET]
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-29 11:17:05) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_flashes (2.0ms)
+Completed in 278ms (View: 114 | 200 OK [http://www.example.com/register]
+REQUESTING PAGE: POST /users with {"user"=>{"password_confirmation"=>"bigSecRet", "password"=>"bigSecRet", "login"=>"balint"}, "commit"=>"Create user"} and HTTP headers {"HTTP_REFERER"=>"/register"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-07-29 11:17:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"bigSecRet", "login"=>"balint", "password"=>"bigSecRet"}, "commit"=>"Create user"}
+
+
+Processing ApplicationController#create (for 127.0.0.1 at 2009-07-29 11:17:05) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"bigSecRet", "login"=>"balint", "password"=>"bigSecRet"}, "commit"=>"Create user"}
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-30 08:28:54) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_flashes (1.9ms)
+Completed in 174ms (View: 73 | 200 OK [http://www.example.com/register]
+REQUESTING PAGE: POST /users with {"user"=>{"password_confirmation"=>"bigSecRet", "password"=>"bigSecRet", "login"=>"balint"}, "commit"=>"Create user"} and HTTP headers {"HTTP_REFERER"=>"/register"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-07-30 08:28:54) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"bigSecRet", "login"=>"balint", "password"=>"bigSecRet"}, "commit"=>"Create user"}
+Redirected to http://www.example.com/login
+Completed in 9ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-30 08:28:54) [GET]
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-30 08:28:54) [GET]
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-30 08:37:07) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_flashes (1.5ms)
+Completed in 127ms (View: 22 | 200 OK [http://www.example.com/register]
+REQUESTING PAGE: POST /users with {"user"=>{"password_confirmation"=>"bigSecRet", "password"=>"bigSecRet", "login"=>"balint"}, "commit"=>"Create user"} and HTTP headers {"HTTP_REFERER"=>"/register"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-07-30 08:37:07) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"bigSecRet", "login"=>"balint", "password"=>"bigSecRet"}, "commit"=>"Create user"}
+Redirected to http://www.example.com/login
+Completed in 10ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-30 08:37:07) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+
+
+Processing ApplicationController#new (for 127.0.0.1 at 2009-07-30 08:37:07) [GET]
+REQUESTING PAGE: GET /register with {} and HTTP headers {}
+
+
+Processing UsersController#new (for 127.0.0.1 at 2009-07-30 08:37:46) [GET]
+Rendering template within layouts/application
+Rendering users/new
+Rendered layouts/_flashes (1.5ms)
+Completed in 124ms (View: 22 | 200 OK [http://www.example.com/register]
+REQUESTING PAGE: POST /users with {"user"=>{"password_confirmation"=>"bigSecRet", "password"=>"bigSecRet", "login"=>"balint"}, "commit"=>"Create user"} and HTTP headers {"HTTP_REFERER"=>"/register"}
+
+
+Processing UsersController#create (for 127.0.0.1 at 2009-07-30 08:37:46) [POST]
+  Parameters: {"user"=>{"password_confirmation"=>"bigSecRet", "login"=>"balint", "password"=>"bigSecRet"}, "commit"=>"Create user"}
+Redirected to http://www.example.com/login
+Completed in 9ms | 302 Found [http://www.example.com/users]
+REQUESTING PAGE: GET http://www.example.com/login with {} and HTTP headers {"HTTP_REFERER"=>"/users"}
+
+
+Processing UserSessionsController#new (for 127.0.0.1 at 2009-07-30 08:37:46) [GET]
+Rendering template within layouts/application
+Rendering user_sessions/new
+Rendered layouts/_flashes (0.5ms)
+Completed in 11ms (View: 7 | 200 OK [http://www.example.com/login]

@@ -1,0 +1,4 @@
+- if flash.size > 0
+  #flash
+    - flash.each do |level, message|
+      %p{:class => level.to_s}= message

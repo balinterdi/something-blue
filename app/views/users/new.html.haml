@@ -1,0 +1,14 @@
+%h1 New user
+- form_for @user do |form|
+  %p
+    = form.label :login, "Login"
+    = form.text_field :login
+  %p
+    = form.label :password, "Password"
+    = form.password_field :password
+  %p
+    = form.label :password_confirmation, "Password confirmation"
+    = form.password_field :password_confirmation
+  %p
+    = form.submit "Create user"
+  

@@ -1,0 +1,11 @@
+%h1 Lendings
+%table
+  %thead
+    %tr
+      %th Title
+      %th To
+      %th Lent at
+  %tbody
+    = render :partial => "lending", :collection => @lendings
+
+= link_to "New lending", new_lending_path

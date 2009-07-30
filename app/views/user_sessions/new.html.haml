@@ -1,0 +1,10 @@
+%h1 Log in
+- form_for @user_session, :url => user_session_path do |form|
+  %p
+    = form.label :login, "Login"
+    = form.text_field :login
+  %p
+    = form.label :password, "Password"
+    = form.password_field :password
+  %p
+    = form.submit "Log in"
