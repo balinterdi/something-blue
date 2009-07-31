@@ -12,6 +12,8 @@ module NavigationHelpers
       '/'
     when /the register page/
       register_path
+    when /the login page/
+      login_path    
     when /the new lending page/
       new_lending_path
     else

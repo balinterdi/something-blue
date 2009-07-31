@@ -1,12 +1,12 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe Item do
+describe Lending do
   before(:each) do
-    @valid_attributes = {
-    }
+    @valid_attributes = Factory.attributes_for(:lending)
   end
 
   it "should create a new instance given valid attributes" do
-    Item.create!(@valid_attributes)
+    pending
+    Lending.new(@valid_attributes).save.should == true
   end
 end
