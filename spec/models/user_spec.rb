@@ -15,14 +15,14 @@ describe User do
       @attrs = { :login => "humptydumpty", :password => "sickrat" }
       @user = Factory(:user, @attrs)
     end
-    it "should return true if there is a matching user with the given password" do
+    it "should return the user if there is a matching user with the given password" do
       User.authenticate(@attrs).login.should == @user.login
     end
-    it "should return false if there is no user with the given login" do
+    it "should return nil if there is no user with the given login" do
       bad_attrs = @attrs.merge({ :login => "humprey_bogart" })
       User.authenticate(bad_attrs).should be_nil
     end
-    it "should return false if there the password is wrong" do
+    it "should return nil if the password is wrong" do
       bad_attrs = @attrs.merge({ :password => "titok" })
       User.authenticate(bad_attrs).should be_nil
     end    

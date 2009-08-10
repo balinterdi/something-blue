@@ -22,6 +22,11 @@
       /   = render :partial => 'layouts/user_navigation'
 
     #main
+      #user_panel
+        - if logged_in?
+          %ul
+            %li= "Logged in as #{current_user.login}"
+            %li= link_to "Log out", logout_path
       #content
         = render :partial => 'layouts/flashes'
         = yield
