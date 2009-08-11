@@ -13,9 +13,13 @@ Factory.define :user do |user|
 end
 
 Factory.define :lending do |l|
+  l.title "Letters from a stoic"
+  l.time  "3"
+  l.association :from, :factory => :user
+  l.association :to, :factory => :user
 end
 
 Factory.define :user_session do |session|
-  session.login "leonhard"
+  session.login "seneca"
   session.password "secret"
 end

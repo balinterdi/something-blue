@@ -6,6 +6,12 @@ RAILS_GEM_VERSION = '2.3.2' unless defined? RAILS_GEM_VERSION
 # Bootstrap the Rails environment, frameworks, and default configuration
 require File.join(File.dirname(__FILE__), 'boot')
 
+puts "XXX RAILS_ENV: #{RAILS_ENV}"
+require 'relaxdb'
+RelaxDB.configure :host => "localhost", :port => 5984, :design_doc => 'something_blue'
+RelaxDB.use_db "something_blue_#{RAILS_ENV}"
+RelaxDB.enable_view_creation
+
 Rails::Initializer.run do |config|
   # Settings in config/environments/* take precedence over those specified here.
   # Application configuration should go into files in config/initializers
@@ -33,8 +39,3 @@ Rails::Initializer.run do |config|
   config.time_zone = 'UTC'
 end
 
-puts "XXX RAILS_ENV: #{RAILS_ENV}"
-require 'relaxdb'
-RelaxDB.configure :host => "localhost", :port => 5984, :design_doc => 'something_blue'
-RelaxDB.use_db "something_blue_#{RAILS_ENV}"
-RelaxDB.enable_view_creation
