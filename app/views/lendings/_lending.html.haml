@@ -1,4 +1,4 @@
 %tr
   %td= lending.title
-  %td= lending.to
+  %td= User.by__id(lending.to).login
   %td= I18n.l(lending.created_at.getlocal, :format => :short)

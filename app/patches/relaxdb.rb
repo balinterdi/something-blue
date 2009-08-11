@@ -4,4 +4,9 @@ class RelaxDB::Document
   # def new_record?
   #   true
   # end
+  def create(params)
+    new(params)
+    save
+    self
+  end
 end

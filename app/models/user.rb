@@ -7,6 +7,7 @@ class User < RelaxDB::Document
   property :login, :validator => :required
   property :encrypted_password
 
+  view_by :_id
   view_by :login
 
   before_save :encrypt_password
