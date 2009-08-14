@@ -12,7 +12,7 @@ Feature: Lend an item
   And I fill in the lending's title with "My favorite worst nightmare"
   And I select "CD" from "category"
   And I select "2 weeks" from "time"
-  And I select "bob" from "to"
+  And I select "bob" from "lending[to_id]"
   And I press "Save"
   Then I should see "Lending saved"
   And I should see "My favorite worst nightmare"

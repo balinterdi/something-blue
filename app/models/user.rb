@@ -7,6 +7,9 @@ class User < RelaxDB::Document
   property :login, :validator => :required
   property :encrypted_password
 
+  has_many :lent_items, :class => "Lending", :known_as => :from
+  has_many :borrowed_items, :class => "Lending", :known_as => :to
+
   view_by :_id
   view_by :login
 

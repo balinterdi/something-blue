@@ -1,4 +1,5 @@
 - @page_title = "New lending"
+= error_messages_for "lending"
 - form_for @lending do |form|
   %p
     = form.label :title, "Title"
@@ -10,8 +11,9 @@
     = form.label :time, "Time"
     = select_tag "lending[time]", options_for_select([["1 day", "1"], ["3 days", "3"], ["1 week", "7"], ["2 weeks", "14"]])
   %p
+    = form.hidden_field :from_id, :value => current_user.id
     = form.label :to, "To"
-    = select_tag "lending[to]", options_from_collection_for_select(@friends, "id", "login")
+    = select_tag "lending[to_id]", options_from_collection_for_select(@friends, "id", "login")
   %p
     = form.submit "Save"
   

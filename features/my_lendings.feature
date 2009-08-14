@@ -19,5 +19,5 @@ Feature: Lendings of a user
   When I go to my lendings page
   Then I should see "Letters from a stoic"
   And I should see "lucilius"
-  And I should see "5"
+  And I should see "5 days"
   But I should not see "Meditations"

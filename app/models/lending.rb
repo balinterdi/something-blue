@@ -3,8 +3,8 @@ class Lending < RelaxDB::Document
   property :category
   property :time, :validator => :required
 
-  references :from, :validator => :required
-  references :to, :validator => :required
+  references :from, :validator => :required, :validation_msg => "was not given" # = belongs_to :from, ...
+  references :to, :validator => :required # = belongs_to :to, ...
 
   property :created_at
 

@@ -16,6 +16,8 @@ module NavigationHelpers
       login_path    
     when /the new lending page/
       new_lending_path
+    when /my lendings page/
+      lendings_path
     else
       raise "Can't find mapping from \"#{page_name}\" to a path.\n" +
         "Now, go and add a mapping in #{__FILE__}"
