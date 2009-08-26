@@ -1,7 +1,7 @@
 ActionController::Routing::Routes.draw do |map|
 
   map.resources :users
-  map.resources :lendings
+  map.resources :lendings, :collection => { :overdue => :get, :borrowed => :get }
   map.resource :user_session
 
   map.register '/register', :controller => "users", :action => "new"

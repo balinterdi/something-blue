@@ -1,5 +1,7 @@
 %tr
   %td= lending.title
   %td= lending.to.login
-  %td= I18n.l(lending.created_at.getlocal, :format => :short)
+  / I18n.l(lending.created_at.getlocal, :format => :short)
+  %td= lending.created_at
   %td= "#{lending.time} days"
+  

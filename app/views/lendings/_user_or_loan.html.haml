@@ -1,0 +1,9 @@
+%tr
+  - if user_or_loan.class.to_s == "User"
+    %td
+      %b= user_or_loan.login
+    %td &nbsp;
+  - else
+    %td &nbsp;
+    %td= user_or_loan.title
+  

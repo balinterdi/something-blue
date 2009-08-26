@@ -21,4 +21,12 @@ class LendingsController < ApplicationController
     @lendings = current_user.lent_items
   end
   
+  def overdue
+    @lendings = Lending.overdue
+  end
+  
+  def borrowed
+    @users_and_loans = Lending.borrowed_by_user
+  end
+  
 end

@@ -1,4 +1,4 @@
-%h1 Loans
+%h1 Overdue loans
 %table
   %thead
     %tr
@@ -8,5 +8,3 @@
       %th For
   %tbody
     = render :partial => "lending", :collection => @lendings
-
-= link_to "New lending", new_lending_path

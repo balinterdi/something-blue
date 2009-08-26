@@ -12,7 +12,7 @@ class User < RelaxDB::Document
 
   view_by :_id
   view_by :login
-
+  
   before_save :encrypt_password
 
   def self.authenticate(options)

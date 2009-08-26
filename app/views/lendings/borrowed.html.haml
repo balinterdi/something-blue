@@ -1,0 +1,11 @@
+%h1 Borrowed items by users
+%table
+  %thead
+    %tr
+      %th Name
+      %th Title
+      / %th Borrowed from
+      / %th Due back at
+  %tbody
+    = render :partial => "user_or_loan", :collection => @users_and_loans, :as => :user_or_loan
+  
